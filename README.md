@@ -5,7 +5,7 @@ This repository contains my completed assignments of Andrew Ng's now classic mac
 
 ## 1. [Linear Regression](/Exercise1/exercise1.ipynb)
 
-- Performed Z-Score **normalization** on featuress
+- Performed Z-Score __normalization__ on featuress
 - Solved linear regressions using **gradient descent** as optimizer
 - Compared results to closed-form solutions based on normal equations
 - Visualized cost function on surface and contour plots.
