@@ -21,4 +21,30 @@ This repository contains my completed assignments of Andrew Ng's now classic mac
 
 ![Decision boundary with regularization](/Exercise2/Figures/decision_boundary2.png)
 
+## 3. [Multi-class Classification](/Exercise3/exercise3.ipynb)
+
+- Implemented one-vs-all logistic regression with L2 regularization using gradient descent
+- Based on a 5000 example subset from the [MNIST](http://yann.lecun.com/exdb/mnist/) handwritten digit dataset
+
+![Cost function plots](/Exercise3/Figures/output.png)
+
+## 4. [Neural Networks with Backpropagation](/Exercise4/exercise4.ipynb)
+
+- Constructed a simple neural network (NN) with 1 hidden layer, built on logistic regression with sigmoid activation, with L2 regularization
+- Initialized with random weights
+- Implemented **backpropagation** and **gradient checking**
+
+![Simple NN plots](/Exercise4/Figures/ex4-backpropagation.png)
+
+## 5. [Bias vs Variance Trade-off](/Exercise5/exercise5.ipynb)
+
+- Implemented a polynomial NN with 1 hidden layer with sigmoid activation
+- Plotted **learning curve** for train and cross-validation samples to gauge fitness, and **validation curve** for diagnostics
+- Tackled the overfitting problem by experimenting with different levels of regularization
+
+| Polynomial fit | Learning Curve | Validation Curve |
+| --- | --- | --- |
+| ![Poly fit](/Exercise5/Figures/polynomial_regression.png) | ![LC](/Exercise5/Figures/polynomial_learning_curve.png) | ![VC](/Exercise5/Figures/cross_validation.png) |
+
+
 
