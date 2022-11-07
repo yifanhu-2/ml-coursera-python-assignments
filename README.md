@@ -68,7 +68,7 @@ This repository showcases my journey through Andrew Ng's now classic machine lea
 
 - **Anomaly detection**: Fine-tuned error threshold using **F1 score** on cross-validation set, identified anomaly on estimated Gaussian distributions
 
-![Anomaly detection](/Exercise7/Figures/gaussian_fit.png) 
+![Anomaly detection](/Exercise8/Figures/gaussian_fit.png) 
 
 - **Recommender system**:
   - Based on the [MovieLens 100k Dataset](https://grouplens.org/datasets/movielens/) from GroupLens Research): 943 raters rated 1682 movies on a scale of 1-6
