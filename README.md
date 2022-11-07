@@ -2,6 +2,11 @@
 
 This repository showcases my journey through Andrew Ng's now classic machine learning course on Coursera, in Python instead of the original MATLAB. As a quantitative researcher coming from a background in experimental statistics, I got to expand my technical repertoire into statistical learning. The course has since been adapted into a three-part series comprising the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
 
+**Core skills**: 
+- Built ML models with NumPy & scikit-learn, build & train supervised models for prediction & binary classification tasks (linear, logistic regression) 
+- Applied best practices for ML development & use unsupervised learning techniques for unsupervised learning including clustering & anomaly detection
+- Built recommender systems with a collaborative filtering approach
+
 
 ## 1. [Linear Regression](/Exercise1/exercise1.ipynb)
 
