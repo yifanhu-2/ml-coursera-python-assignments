@@ -52,3 +52,5 @@ This repository showcases my journey through Andrew Ng's now classic machine lea
 - Optimized for C and RBF parameter sigma through **grid search**
 - Trained a linear SVM on a subset of the [SpamAssassin Public Corpus](http://spamassassin.apache.org/old/publiccorpus/)
 - Performed **data cleaning**, **vocab building**, and **feature extraction** on emails
+
+![SVM](/Exercise6/Figures/svm_dataset3_best.png) 
