@@ -1,6 +1,6 @@
 # [Machine Learning with Andrew Ng](https://www.coursera.org/learn/machine-learning) 
 
-This repository contains my completed assignments of Andrew Ng's now classic machien learning course on Coursera, in Python instead of the original MATLAB, which serves as a broad introduction to machine learning. This course has since been adapted into a three-part series comprising the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
+This repository showcases my journey through Andrew Ng's now classic machine learning course on Coursera, in Python instead of the original MATLAB. As a quantitative researcher coming from a background in experimental statistics, I got to expand my technical repertoire into statistical learning. The course has since been adapted into a three-part series comprising the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
 
 
 ## 1. [Linear Regression](/Exercise1/exercise1.ipynb)
@@ -14,7 +14,7 @@ This repository contains my completed assignments of Andrew Ng's now classic mac
 
 ## 2. [Logistic Regression](/Exercise2/exercise2.ipynb)
 
-- Constructed **logistic regression** with **sigmoid function** as the cost function
+- Created a **logistic regression** with **sigmoid function** as the cost function
 - Performed **polynomial feature mapping** to account for nonlinearity in data
 - Added **L2 regularization** to control the risk for overfitting as a result of feature mapping
 - Implemented gradient descent with `scipy.optimize.minimize`
@@ -30,7 +30,7 @@ This repository contains my completed assignments of Andrew Ng's now classic mac
 
 ## 4. [Neural Networks with Backpropagation](/Exercise4/exercise4.ipynb)
 
-- Constructed a simple neural network (NN) with 1 hidden layer, built on logistic regression with sigmoid activation, with L2 regularization
+- Created a simple neural network (NN) with 1 hidden layer, built on logistic regression with sigmoid activation, with L2 regularization
 - Initialized with random weights
 - Implemented **backpropagation** and **gradient checking**
 
@@ -38,7 +38,7 @@ This repository contains my completed assignments of Andrew Ng's now classic mac
 
 ## 5. [Bias vs Variance Trade-off](/Exercise5/exercise5.ipynb)
 
-- Implemented a polynomial NN with 1 hidden layer with sigmoid activation
+- Created a polynomial NN with 1 hidden layer with sigmoid activation
 - Plotted **learning curve** for train and cross-validation samples to gauge fitness, and **validation curve** for diagnostics
 - Tackled the overfitting problem by experimenting with different levels of regularization
 
@@ -46,5 +46,9 @@ This repository contains my completed assignments of Andrew Ng's now classic mac
 | --- | --- | --- |
 | ![Poly fit](/Exercise5/Figures/polynomial_regression.png) | ![LC](/Exercise5/Figures/polynomial_learning_curve.png) | ![VC](/Exercise5/Figures/cross_validation.png) |
 
+## 6. [Support Vector Machines](/Exercise6/exercise6.ipynb)
 
-
+- Created a **Gaussian kernel** to learn a nonlinear boundary with SVM
+- Optimized for C and RBF parameter sigma through **grid search**
+- Trained a linear SVM on a subset of the [SpamAssassin Public Corpus](http://spamassassin.apache.org/old/publiccorpus/)
+- Performed **data cleaning**, **vocab building**, and **feature extraction** on emails
