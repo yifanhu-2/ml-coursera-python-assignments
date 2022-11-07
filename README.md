@@ -40,7 +40,7 @@ This repository showcases my journey through Andrew Ng's now classic machine lea
 
 - Created a polynomial NN with 1 hidden layer with sigmoid activation
 - Plotted **learning curve** for train and cross-validation samples to gauge fitness, and **validation curve** for diagnostics
-- Tackled the overfitting problem by experimenting with different levels of regularization
+- Tuned hyperparameters to tackle overfitting
 
 | Polynomial fit | Learning Curve | Validation Curve |
 | --- | --- | --- |
@@ -54,3 +54,23 @@ This repository showcases my journey through Andrew Ng's now classic machine lea
 - Performed **data cleaning**, **vocab building**, and **feature extraction** on emails
 
 ![SVM](/Exercise6/Figures/svm_dataset3_best.png) 
+
+## 7. [Dimension Reduction Methods](/Exercise7/exercise7.ipynb)
+
+- Compressed standard 24-bit color images to 4-bit images with 16 colors using a **K-means clustering** algorithm
+- Implemented **dimensionality reduction** with **PCA** on a subset of the [labeled faces in the wild](http://vis-www.cs.umass.edu/lfw/) dataset 
+
+| Compression with K-means clustering | Reconstructed faces with the first 100 PCs |
+| --- | --- | 
+| ![Kmeans](/Exercise7/Figures/bird_compression.png) | ![PCA](/Exercise7/Figures/faces_reconstructed.png) |
+
+## 8. [Anomaly Detection and Recommender Systems](/Exercise8/exercise8.ipynb)
+
+- **Anomaly detection**: Fine-tuned error threshold using **F1 score** on cross-validation set, identified anomaly on estimated Gaussian distributions
+
+![Anomaly detection](/Exercise7/Figures/gaussian_fit.png) 
+
+- **Recommender system**:
+  - Based on the [MovieLens 100k Dataset](https://grouplens.org/datasets/movielens/) from GroupLens Research): 943 raters rated 1682 movies on a scale of 1-6
+  - Constructed a **collaborative filtering** algorithm (learning both weights and ratings at the same time) with L2 regularization
+  - Implemented gradient descent with `scipy.optimize.minimize`
